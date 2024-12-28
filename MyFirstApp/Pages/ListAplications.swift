@@ -17,6 +17,9 @@ struct ListAplications: View {
                 NavigationLink(destination: ListExample(), label: {
                     Text("ListExample")
                 })
+                NavigationLink(destination: SuperHeroSearcher(), label: {
+                    Text("SuperHeroSearcher")
+                })
             }
         }
     }
